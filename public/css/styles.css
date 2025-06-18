@@ -191,6 +191,11 @@ footer {
   font-weight: bold;
 }
 
+.notice {
+  color: red;
+  font-style: italic;
+}
+
 @media screen and (min-width: 768px) {
   body {
     background: url("/images/site/checkerboard.jpg") repeat;
