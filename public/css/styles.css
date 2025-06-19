@@ -196,6 +196,41 @@ footer {
   font-style: italic;
 }
 
+.login-form {
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: aqua;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  background-color: #28a745;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
 @media screen and (min-width: 768px) {
   body {
     background: url("/images/site/checkerboard.jpg") repeat;
