@@ -217,6 +217,27 @@ footer {
   border-radius: 4px;
 }
 
+.register-form {
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: aqua;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 button {
   width: 100px;
   padding: 10px;
@@ -229,6 +250,25 @@ button {
 
 button:hover {
   background-color: #218838;
+}
+
+input:required:invalid, input:focus:invalid {
+  background-image: url(/images/invalid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+input:required:valid {
+  background-image: url(/images/valid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.notice {
+  color: red;
+  border-left: 6px solid #f44336;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
